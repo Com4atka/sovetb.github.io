@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<nav>
+<ul align="left" class="text">
+<li><a href="index.html">Главная</a></li>
+<li><a href="otsovi.html">Отзовы</a></li>
+<li><a href="buy.html">купить</a></li>
+</ul>
+</nav>
+          <title>Отзывы</title>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="style.css">
+<!--Виджет-->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 7174405, onlyWidgets: true});
+</script>
+
+
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10000, width: "1350", attach: false});
+</script>
+    </head>
+    <body bgcolor="black">
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
